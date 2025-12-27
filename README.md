@@ -34,15 +34,6 @@ The program runs in four stages:
 - External programs → `execvp` (`sort`, `wc`)
 - No `fread` / `fgets` file APIs (per assignment rules)
 
-### Project Structure
-```
-src/
-  database_service.c
-examples/
-  database_records.txt
-Makefile
-README.md
-```
 
 ### Build
 ```bash
